@@ -24,4 +24,10 @@ class Sizes {
 
   //STACK POSITION
   static const double stackPositionSmall = 5.0;
+
+//SLIVER VALUES
+  static const double minSliverValue = 0.0;
+  static const double maxSliverValue = 200.0;
+  static const double DivisionsSliverValue = 100.0;
+  static const double initialSliverValue = 15.0;
 }

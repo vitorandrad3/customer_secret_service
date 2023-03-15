@@ -52,4 +52,11 @@ class Strings {
   static const String agency = 'Agência';
   static const String accountNumber = 'Número da conta';
   static const String pix = 'Pix';
+  static const String mainCity = 'Cidade principal';
+  static const String showServicesInRound =
+      'Mostrar serviços em um raio de até';
+  static const String km = 'km';
+  static const String services = 'Serviços';
+
+  static const String avaiableServices = 'Serviços disponíveis';
 }

@@ -1,4 +1,4 @@
-import 'package:customer_secret_service/edit_personal_information/widgets/custom_dropdown.dart';
+import 'package:customer_secret_service/global/design_system/widgets/custom_dropdown.dart';
 import 'package:customer_secret_service/edit_personal_information/widgets/infromations_card.dart';
 import 'package:customer_secret_service/global/design_system/themes/constants/sizes.dart';
 import 'package:customer_secret_service/global/design_system/themes/constants/strings.dart';

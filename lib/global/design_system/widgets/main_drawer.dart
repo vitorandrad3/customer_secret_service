@@ -27,6 +27,17 @@ class MainDrawer extends StatelessWidget {
             ),
             const BoxSpacer.xLarge(),
             Text(
+              Strings.services,
+              style: Theme.of(context).textTheme.headline6,
+            ),
+            const BoxSpacer(),
+            CustomDrawerItem(
+              icon: Icons.work,
+              title: Strings.avaiableServices,
+              onPressed: () {},
+            ),
+            const BoxSpacer.xLarge(),
+            Text(
               Strings.personalInformations,
               style: Theme.of(context).textTheme.headline6,
             ),
@@ -51,7 +62,9 @@ class MainDrawer extends StatelessWidget {
             CustomDrawerItem(
               icon: Icons.south_america,
               title: Strings.preferredRegions,
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, Routes.preferredRegions);
+              },
             )
           ],
         ),
