@@ -14,12 +14,17 @@ class CustomDrawerItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final theme =  Theme.of(context);
+    final theme = Theme.of(context);
     return ElevatedButton.icon(
       onPressed: onPressed,
-      icon: Icon(icon, color: theme.colorScheme.onSurface,),
+      icon: Icon(
+        icon,
+        color: theme.colorScheme.onSurface,
+      ),
       label: Text(
-        title, style: theme.textTheme.button!.copyWith(color: theme.colorScheme.primary),
+        title,
+        style:
+            theme.textTheme.button!.copyWith(color: theme.colorScheme.primary),
       ),
     );
   }
